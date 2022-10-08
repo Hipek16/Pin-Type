@@ -1,2 +1,2 @@
 # Pin-Type
-  <img src="https://devil.gg/library/​‌‌​​‌​‌​‌‌‌‌​​​​‌​​​​‌‌​‌​​‌‌‌‌​​‌‌​‌​‌​‌​​​‌‌​​‌​‌‌​​‌​‌‌​‌​​​">
+  <img src="https://devil.gg/library/exDyGbss">
