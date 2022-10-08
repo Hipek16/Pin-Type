@@ -1,0 +1,125 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto&display=swap');
+
+
+    :root { 
+    
+        /* Font Size */
+    
+        --fs-small: 16px;
+        --fs-normal: 20px;
+        --fs-large: 34px;
+        --fs-title: 48px;
+    
+        /* Font Family */
+    
+        --ff-open: 'Open Sans', sans-serif;
+        --ff-roboto: 'Roboto', sans-serif;
+        --ff-dynopuff: 'DynaPuff', cursive;
+        --ff-aple: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+        --ff-skillscreen: 'Silkscreen', cursive;
+    
+        /* Font Weight */
+    
+        --fw-100: 100;
+        --fw-200: 200;
+        --fw-300: 300;
+        --fw-400: 400;
+        --fw-500: 500;
+        --fw-600: 600;
+        --fw-700: 700;
+        --fw-800: 800;
+        --fw-900: 900;
+    
+        /* Background Color */
+    
+            --body-800: #1a1d24;
+            --body-900: #0f131a;
+            --body-600: #e63f30;
+            --body-700: #d12f1d;
+    
+            --bs-blue: #0d6efd;
+            --bs-indigo: #6610f2;
+            --bs-purple: #6f42c1;
+            --bs-pink: #d63384;
+            --bs-red: #dc3545;
+            --bs-orange: #fd7e14;
+            --bs-yellow: #ffc107;
+            --bs-green: #198754;
+            --bs-teal: #20c997;
+            --bs-cyan: #0dcaf0;
+            --bs-white: #fff;
+            --bs-gray: #6c757d;
+            --bs-gray-dark: #343a40;
+            --bs-primary: #0d6efd;
+            --bs-primaryhover: #0d6dfda9;
+            --bs-secondary: #6c757d;
+            --bs-success: #198754;
+            --bs-info: #0dcaf0;
+            --bs-warning: #ffc107;
+            --bs-danger: #dc3545;
+            --bs-light: #f8f9fa;
+            --bs-dark: #212529;
+    }
+    
+    
+    body { 
+        margin: 0;
+        color: var(--bs-light);
+        font-family: var(--ff-aple);
+        background-color: var(--body-900);
+    }
+
+    .title {
+        font-size: 22px;
+        color: var(--bs-light);
+        letter-spacing: 2px;
+        font-weight: var(--fw-400);
+        font-family: var(--ff-aple);
+        margin-top: 20%;
+        margin-left: 14%;
+    }
+
+    .line {
+        width: 430px;
+        height: 1px;
+        background-color: var(--bs-light);
+        margin-top: 1%;
+        margin-left: 13%;
+    }
+
+    .description {
+        font-size: 18px;
+        font-weight: var(--fw-200);
+        margin-left: 14%;
+    }
+
+    
+
+    #pin {
+        margin-top: -5%;
+        margin-left: 55%;
+    }
+  
+    input {
+      color:rgb(37, 37, 37);
+      border:none;
+      width: 70px;
+      height: 70px;
+      margin: .4vw;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 900;
+      cursor: default;
+      caret-color: transparent;
+      background-color: var(--bs-gray);
+      border-radius: 5%;
+  
+    }
+
+    @keyframes aktywna {
+        100% {
+          background-color: rgb(233, 233, 233);
+      
+      }
+      }
